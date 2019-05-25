@@ -1,0 +1,36 @@
+/* html, body{
+height:100%;
+width:100%;
+
+} */
+
+/* .header{
+  overflow: hidden;
+  background-color: white;
+  position:fixed;
+  width:100%;
+} */
+
+/* .nav{
+  float: right;
+  margin-top: 20px;
+  color:black;
+  margin-right: 20px;
+} */
+
+
+/* .logo{
+  margin-left:50px;
+  float: left;
+} */
+/* 
+.slideshow{
+  position: absolute;
+  height:500px;
+} */
+
+wrapper {
+  min-height: calc(100vh - 120px);
+}
+
+

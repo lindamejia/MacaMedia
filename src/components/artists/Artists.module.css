@@ -1,0 +1,223 @@
+.video{
+  height: 40%;
+   width: 100%;
+   object-fit: cover;
+}
+
+.backgroundVideo{
+  overflow-x: hidden;
+  
+      }
+
+      .title {
+        /* background: rgba(0,0,0,0); */
+        position: absolute;
+        top: 20%; right: 0; bottom: 0; left: 0;
+        display: block;
+        align-items: center;
+        /* justify-content: space-evenly;  */
+         min-height: 10vh;
+         text-align:center;
+         
+      }
+
+      .button{
+        background-color: rgba(255, 255, 255, 0);
+        border: 2px solid white;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+      .button:hover{
+        color: white;
+      }
+
+      .scroll{
+        display: inline-block;
+        margin-top: 25%;
+        height: 30px;
+        width: 30px;
+      }
+      
+      .deconstructed {
+        position: relative;
+        margin-bottom: 60px;
+        height: 0.71em;
+        color: transparent;
+        font-family: 'Cambay', sans-serif;
+        font-size: 8vw;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        line-height: 1.03em;
+      }
+      
+      .deconstructed > div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        color: white;
+        pointer-events: none;
+      }
+      
+      .deconstructed > div:nth-child(1) {
+        -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+        mask-image: linear-gradient(black 25%, transparent 25%);
+        animation: deconstructed1 5s infinite;
+      }
+      
+      .deconstructed > div:nth-child(2) {
+        -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+        mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+        animation: deconstructed2 5s infinite;
+      }
+      
+      .deconstructed > div:nth-child(3) {
+         -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+        mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+        animation: deconstructed3 5s infinite;
+      }
+      
+      .deconstructed > div:nth-child(4) {
+         -webkit-mask-image: linear-gradient(transparent 75%);
+        mask-image: linear-gradient(transparent 75%, black 75);
+        animation: deconstructed4 5s infinite;
+      }
+      
+      @keyframes deconstructed1 {
+        0% {
+          transform: translateX(100%);
+        }
+        26% {
+          transform: translateX(0%);
+        }
+        83% {
+          transform: translateX(-0.1%);
+        }
+        100% {
+          transform: translateX(-120%);
+        }
+      }
+      
+      @keyframes deconstructed2 {
+        0% {
+          transform: translateX(100%);
+        }
+        24% {
+          transform: translateX(0.5%);
+        }
+        82% {
+          transform: translateX(-0.2%);
+        }
+        100% {
+          transform: translateX(-125%);
+        }
+      }
+      
+      @keyframes deconstructed3 {
+        0% {
+          transform: translateX(100%);
+        }
+        22% {
+          transform: translateX(0%);
+        }
+        81% {
+          transform: translateX(0%);
+        }
+        100% {
+          transform: translateX(-130%);
+        }
+      }
+      
+      @keyframes deconstructed4 {
+        0% {
+          transform: translateX(100%);
+        }
+        20% {
+          transform: translateX(0%);
+        }
+        80% {
+          transform: translateX(0%);
+        }
+        100% {
+          transform: translateX(-135%);
+        }
+      }
+
+      .Artists{
+        height: 400px;
+        width: 400px;
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .text {
+        color: white;
+        font-size: 40px;
+        font-family:'Proxima N W01 Bold', Helvetica, Arial, sans-serif;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: black;
+      }
+
+      .box {
+        position: relative;
+        width: 100%;
+      }
+
+      .box:hover .overlay {
+        opacity: 1;
+      }
+
+      @media only screen and (max-width: 768px) {
+        /* For desktop: */
+
+       .box{
+          width: 100%;
+        } 
+
+        .video{
+            height:30%;
+            width: 100%;
+            /* object-fit: cover; */
+        }
+
+        .button{
+          display: none;
+        }
+
+        .Artists{
+          height: auto;
+          width: 88%;
+          text-align: center;
+        }
+      }
+
+     
+
+      
+      

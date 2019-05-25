@@ -1,0 +1,75 @@
+.header{
+    height: 650px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom:10px;
+}
+
+.button{
+    border: 1px solid #000;
+    background-color:black;
+    color: white ;
+    width:50%;
+    padding:5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family:'Proxima N W01 Bold', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+  }
+
+  .button:hover{
+    cursor: pointer;
+    background-color: rgba(199, 199, 201, 0.911);
+    border: grey;
+    color: white;
+  }
+
+  .label{
+    color:black;
+    font-weight: bold;
+    font-family:'Proxima N W01 Bold', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    
+  }
+
+ .input{
+  border: 0.5px solid #000;
+    background-color: #FFF;
+    color: #000 ;
+    width:100%;
+    height: 50%;
+    padding:5px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    /* font-weight: bold; */
+    font-family:'Proxima N W01 Bold', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+ }
+
+ .textArea{
+  border: 0.5px solid #000;
+  background-color: #FFF;
+  color: #000 ;
+  width:50%;
+ border-radius: 2px;
+  padding:5px;
+  margin-bottom: 20px;
+  /* font-weight: bold; */
+  font-family:'Proxima N W01 Bold', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+ }
+
+ @media only screen and (max-width: 768px) {
+  /* For desktop: */
+  .textArea{
+      width: 100%;
+     
+  }
+
+  .header{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+}

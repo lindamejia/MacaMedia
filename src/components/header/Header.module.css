@@ -1,0 +1,55 @@
+  .nav{
+    color:white;
+    font-weight: bold;
+    font-family:'Proxima N W01 Bold', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    }
+    
+.navBar{
+   height: 20%; 
+   -webkit-transition-duration: 0.5s;
+}
+
+.navBar.fixed {
+  background-color: #FFF;
+}
+
+.mainNav{
+      color:white;
+      margin-right: 20px;
+}
+
+  .nav:hover{
+    border-bottom: 3px solid ;
+    color:white;
+    margin-bottom:2px;
+  }
+  
+
+  .logo{
+    margin-left:30px;
+    display:inline-block;
+    /* float: left; */
+    height: 75px;
+    width:auto;
+  }
+
+  button:focus {
+    outline: 1px dotted;
+    /* outline: 5px auto -webkit-focus-ring-color; */
+}
+
+
+  @media only screen and (max-width: 768px) {
+    /* For desktop: */
+    .nav{
+      height: auto;
+    }
+
+    .navBar{
+        height: auto;
+    }
+
+    
+    
+  }
