@@ -26,7 +26,7 @@ class App extends Component {
 
           {/* <ProductsForm />
             <Products /> */}
-          <Route path="/shop" render={props => <Shop {...props} />} />
+          {/* <Route path="/shop" render={props => <Shop {...props} />} /> */}
           <Route path="/releases" render={props => <Releases {...props} />} />
           <Route path="/artists" render={props => <Artists {...props} />} />
           <Route path="/contact" render={props => <Contact {...props} />} />

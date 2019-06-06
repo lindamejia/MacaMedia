@@ -6,7 +6,7 @@ import Wassat from "../../MacaPics/damian-avila-wassat-art.png";
 import Selva from "../../MacaPics/mayhem-in-action-forti-selva-art.png";
 import WarEp from "../../MacaPics/stoutty-war-ep-art.png";
 import Kulikitaka from "../../MacaPics/ciisnero-kulikitaka-art.png";
-import Backbreaker from "../../MacaPics/backbreaker-art.png";
+import Backbreaker from "../../MacaPics/backbreaker-art.png"; 
 import Drown from "../../MacaPics/dj4b-drown-art.png";
 import Warp from "../../MacaPics/dual-color-warp.png";
 import Teez from "../../MacaPics/teez.png";
