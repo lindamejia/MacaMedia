@@ -6,7 +6,7 @@
     }
     
 .navBar{
-   height: 20%; 
+   height: 15%; 
    -webkit-transition-duration: 0.5s;
 }
 
@@ -28,7 +28,7 @@
 
   .logo{
     margin-left:30px;
-    display:inline-block;
+    /* display:inline-block; */
     /* float: left; */
     height: 75px;
     width:auto;
