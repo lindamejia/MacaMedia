@@ -15,7 +15,7 @@
     "react-masonry-component": "^6.2.1",
     "react-redux": "^6.0.1",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8",
+    "react-scripts": "5.0.1",
     "reactstrap": "^7.1.0",
     "redux": "^4.0.1",
     "redux-devtools-extension": "^2.13.8",
